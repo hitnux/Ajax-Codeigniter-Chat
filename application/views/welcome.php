@@ -95,11 +95,11 @@
             <div class="header">
                 Welcome HBChat
             </div>
-            <div class="form">
+            <form class="form" action="#">
                 <input type="text" id="nickname" placeholder="Nickname" autocomplete="off" minlength="3" maxlength="13" required="required">
                 <span id="info"></span>
                 <input type="submit" class="button" value="Submit">
-            </div>
+            </form>
             <div class="footer">Halil Bilgin - 2019</div>
         </div>
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
